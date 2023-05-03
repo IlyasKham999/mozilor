@@ -1,0 +1,36 @@
+.partners-section {
+    padding-top: 120px;
+
+    @media(max-width: $breakPoint992) {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    @media(max-width: $breakPoint480) {
+        padding-bottom: 10px;
+    }
+
+    // .brands-section__text
+
+    &__text {
+    }
+
+    // .brands-section__title
+
+    &__title {
+    }
+
+    // .brands-section__subtitle
+
+    &__subtitle {
+    }
+}
+
+// Slider
+.swiper-container {
+    margin-top: 113px;
+    
+    @media(max-width: $breakPoint992) {
+        margin-top: 50px;
+    }
+}
